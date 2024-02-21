@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gogilapp/static/css/main.581e06ba.css",
+    "main.js": "/gogilapp/static/js/main.49084783.js",
+    "static/js/787.04026ab7.chunk.js": "/gogilapp/static/js/787.04026ab7.chunk.js",
+    "index.html": "/gogilapp/index.html",
+    "main.581e06ba.css.map": "/gogilapp/static/css/main.581e06ba.css.map",
+    "main.49084783.js.map": "/gogilapp/static/js/main.49084783.js.map",
+    "787.04026ab7.chunk.js.map": "/gogilapp/static/js/787.04026ab7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.581e06ba.css",
+    "static/js/main.49084783.js"
+  ]
+}
