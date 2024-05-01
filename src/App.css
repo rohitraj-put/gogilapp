@@ -26,6 +26,12 @@
     --white: white;
 }
 
+.HeadLink a {
+    color: #0F8807;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
 p {
     font-size: 20px;
 }
@@ -48,7 +54,8 @@ span {
 
 
 }
-.summary p{
+
+.summary p {
     padding: 10px;
     border-left: 2px solid #0F8807;
     border-right: 2px solid #0F8807;
@@ -69,6 +76,7 @@ span {
     position: relative;
 
 }
+
 .box-right img {
     width: 100%;
     height: 100%;
@@ -78,11 +86,13 @@ span {
     animation-iteration-count: infinite;
     transition: 0.3s linear;
 }
+
 @keyframes ani {
-    10%{
-       transform: rotate(5deg);
+    10% {
+        transform: rotate(5deg);
     }
-    100%{
+
+    100% {
         transform: rotate(-5deg);
     }
 }
@@ -99,11 +109,13 @@ Nav {
     box-shadow: rgba(132, 150, 179, 0.2) 0px 2px 8px 0px;
 
 }
-.brand img:hover{
-transform: scale(1.2);
-transition: 0.3s linear;
+
+.brand img:hover {
+    transform: scale(1.2);
+    transition: 0.3s linear;
 }
-.summary p::first-line{
+
+.summary p::first-line {
     color: brown;
 }
 
@@ -122,14 +134,17 @@ nav a {
     color: var(--white);
 
 }
-.box button a{
+
+.box button a {
     text-decoration: none;
     color: var(--yellow);
 }
-button a:hover{
+
+button a:hover {
     color: var(--green);
 }
-button{
+
+button {
     transition: 0.4s linear;
 }
 
@@ -144,7 +159,8 @@ button{
     color: var(--white);
 
 }
-.btnnew a{
+
+.btnnew a {
     text-decoration: none;
     color: var(--yellow);
 }
@@ -180,11 +196,12 @@ button{
     margin-top: 60px;
 
 }
-#about{
+
+#about {
     background-image: url(https://gogil.aimcomely.com/webassets/images/sideimgtwo.png);
     background-repeat: no-repeat;
     background-position: right;
-    
+
 }
 
 .About-box1 {
@@ -219,15 +236,18 @@ button{
     box-shadow: 2px 2px 25px #cecece;
 
 }
-.box-4 i{
+
+.box-4 i {
     margin-left: 40%;
-     font-size: 4rem;
-     margin-top: 10px;
- }
-.box-4:hover{
+    font-size: 4rem;
+    margin-top: 10px;
+}
+
+.box-4:hover {
     transform: scale(1.1);
     transition: 0.3s linear;
 }
+
 .box-4 h2 {
     margin-top: 10px;
     text-align: center;
@@ -282,9 +302,10 @@ button{
     position: relative;
     box-shadow: 2px 2px 25px #cecece;
 }
-.card-3:hover{
-   transform: scale(1.1);
-   transition: 0.4s linear;
+
+.card-3:hover {
+    transform: scale(1.1);
+    transition: 0.4s linear;
 }
 
 .profile {
@@ -353,32 +374,7 @@ button:hover {
     margin: 20vh;
     text-align: center;
 }
-.heart{
-    font-size: 2rem;
-    color: black;
-    animation: heart 10s infinite ;
-    transition: 0.3s linear;
-}
-@keyframes heart {
-    10%{
-        color: green;
 
-    }
-    40%{
-        color: pink;
-
-    }
-    70%{
-        color: red;
-    }
-    85%{
-        color: blue;
-    }
-
-    100%{
-color: blueviolet;
-    }
-}
 
 
 @media screen and (max-width: 700px) {
@@ -394,6 +390,7 @@ color: blueviolet;
     p {
         text-align: center;
     }
+
     .About-box1 {
         width: 450px;
         height: 400px;
@@ -411,23 +408,28 @@ color: blueviolet;
     .box {
         text-align: center;
     }
-    .About-box1{
+
+    .About-box1 {
         margin-top: 0px;
     }
-    #feature{
+
+    #feature {
         margin-top: 40px;
     }
-    .box-4:hover{
+
+    .box-4:hover {
         transform: scaleY(1.1);
         transition: 0.3s linear;
     }
 
 }
-@media screen and (max-width: 1200px){
-    .About-box1{
+
+@media screen and (max-width: 1200px) {
+    .About-box1 {
         margin-top: 5px;
     }
-    #feature{
+
+    #feature {
         margin-top: 40px;
     }
 }

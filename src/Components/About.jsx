@@ -1,15 +1,17 @@
 import React, { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Feature from '../assets/feature.png'
+import ScreenTwo from '../assets/screentwo.png'
 
 const About = () => {
     useEffect(() => {
         AOS.init({
-          disable: "phone",
-          duration: 700,
-          easing: "ease-out-cubic",
+            disable: "phone",
+            duration: 700,
+            easing: "ease-out-cubic",
         });
-      }, []);
+    }, []);
 
     const Heading = {
         color: "brown",
@@ -52,7 +54,7 @@ const About = () => {
         <>
             <div className='About' id='features' >
                 <div className='About-box1'>
-                    <img src='https://gogil.aimcomely.com/webassets/images/featureimg.png' alt='Phone' />
+                    <img src={Feature} alt='Phone' />
                 </div>
                 <div className='About-box'>
                     <h1 style={{ textAlign: 'center' }} id='feature'>Best Features of <span>Gogil</span></h1>
@@ -69,7 +71,7 @@ const About = () => {
                         Players can track their progress within each game, unlocking achievements and earning rewards as they reach significant milestones.<br /><br /> This feature adds a sense of accomplishment and encourages players to keep progressing and exploring new levels and challenges.</p>
                 </div>
                 <div className='box-2'>
-                    <img src='https://gogil.aimcomely.com/webassets/images/screentwo.png' alt='img'></img>
+                    <img src={ScreenTwo} alt='img'></img>
                 </div>
             </div>
             <h1 style={Heading}>Download The Latest Version Of Our App</h1>
