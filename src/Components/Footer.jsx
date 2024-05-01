@@ -12,4 +12,4 @@ const Footer = () => {
   )
 }
 
-export default Footerg
+export default Footer
